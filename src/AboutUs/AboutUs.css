@@ -1,0 +1,167 @@
+/* Estilos generales */
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #FF8097;
+    color: #ffffff;
+}
+
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+.logo h1, .logo p {
+    margin: 0;
+    color: #fddcdc;
+}
+
+.menu_container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap; /* Evita que los elementos sobresalgan en pantallas pequeñas */
+}
+
+.conocenos {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.conocenos h2 {
+    font-size: 4rem;
+    
+}
+
+.conocenos-p {
+    font-size: 2rem;
+    color: white;
+    font-family: Verdana;
+    line-height: 1.5;
+}
+
+.sucursales {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-wrap: wrap;
+}
+
+.sucursal {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    width: 30%; /* Ajusta el ancho según sea necesario */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+
+}
+
+.sucursal h3 {
+    font-size: 2rem;
+    color: #ffd700;
+}
+
+.map-container {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section {
+    margin: 10px 0;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+/* Estilos para dispositivos con un ancho menor o igual a 768px */
+@media (max-width: 768px) {
+    .logo img {
+        height: 80px;
+        width: 80px;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    .menu_container3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .conocenos {
+        padding: 20px;
+    }
+
+    .conocenos h2 {
+        font-size: 1.5rem;
+    }
+
+    .conocenos-p {
+        font-size: 16px;
+    }
+
+    .sucursales {
+        flex-direction: column;
+        gap: 20rem;
+        padding: 10rem;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .sucursal {
+        width: 30rem;
+        padding: 2rem 1rem;
+    }
+
+    .sucursal h3 {
+        font-size: 1.2rem;
+    }
+
+    .map-container {
+        height: 29rem;
+        z-index: 0;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-section {
+        margin: 5px 0;
+    }
+
+    .social-icons img {
+        width: 25px;
+        height: 25px;
+    }
+}

@@ -1,0 +1,472 @@
+.header {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(https://www.hungersolutions.org/wp-content/uploads/2021/08/group-different-people-volunteering-foodbank-poor-people-scaled.jpg) center bottom no-repeat;
+    background-size: cover;
+    background-position: center 20%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10rem;
+}
+
+.menu_container{
+    gap: 0 15rem;
+}
+
+.header__button-login {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.logo_donaty img {
+    max-width: 50%;
+    margin-top: 2rem;
+}
+
+.logo_donaty {
+    margin-left: 7rem;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    padding-bottom: 5rem;
+}
+.navbar {
+    display: flex;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    transition: background-color .3s ease-out ;
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+.menu .navbar a {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar a {
+    font-size: 18px;
+    padding: 26px;
+    color: rgb(221, 202, 182);
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu .navbar a:hover {
+    color: rgb(180, 158, 162);
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 5rem;
+    line-height: 8rem;
+    color: #f9e5b3;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.header-content p {
+    font-size: 23px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    text-align: center;
+}
+
+.boton-1 {
+    display: inline-block;
+    padding: 11px 45px;
+    margin-top: 30px;
+    background-color: rgb(133, 42, 24);
+    color: rgb(255, 223, 223);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton-1:hover {
+    background-color: rgb(183, 120, 120);
+}
+
+/* Estilos generales para la sección de café */
+.coffee {
+    padding: 2rem 0;
+    background-color: #fff3f5;
+    position: relative;
+}
+
+.coffee-content {
+    text-align: center;
+}
+
+.coffee-content h2 {
+    font-size: 3rem;
+    line-height: 70px;
+    color: #bb5656;
+    padding: 0 150px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt-parrafo {
+    font-size: 2rem;
+    color: #111b30;
+    padding: 0 250px;
+    margin-bottom: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+/* Grupo de divs: Separación y alineación */
+.coffee-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* Estilo para cada div */
+.coffee-1 {
+    position: relative;
+    width: 350px;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f6e2e2;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilo para las imágenes */
+.coffee-1 img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.coffee-1 img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Títulos dentro de los divs */
+.coffee-1 .titulo-bebida {
+    color: #772026;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: Verdana;
+    text-align: center;
+}
+
+/* Texto dentro de los divs */
+.coffee-1 .texto-bebida {
+    color: #1f0f0f;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: Verdana;
+    text-align: center;
+}
+
+/* Configuración del video que aparecerá dentro del index.html */
+.video-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+/* Estilo para el título */
+.video-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e2bbb7;
+    font-size: 40px;
+    font-family: verdana;
+    text-align: center;
+    z-index: 2;
+}
+
+/* Estilo para la descripción */
+.video-description {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-top: 15rem;
+    transform: translate(-50%, -50%);
+    color: rgb(231, 216, 216);
+    font-size: 23px;
+    text-align: center;
+    font-family: Verdana;
+    z-index: 2;
+}
+
+/* Configuración del pie de página */
+.footer {
+    background-color: #170404;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Verdana;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    margin-bottom: 15px;
+}
+
+/* Estilo para los enlaces */
+.footer-link {
+    color: #dfb7b7;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para las imágenes de redes sociales */
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.menu_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Estilos para las donaciones realizadas por los usuarios */
+.routes-section_1 {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    gap: 15px;
+    background-color: #FFE9B7;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 40rem;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.route-card_1 {
+    display: inline-block;
+    width: 250px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    height: 37rem;
+}
+
+.route-img_1 {
+    width: 180px;
+    height: 150px;
+}
+
+/* Estilos opcionales para hacer más atractivo el scroll */
+.routes-section_1::-webkit-scrollbar {
+    height: 8px;
+}
+
+.routes-section_1::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.routes-section_1::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.title-donations {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Estilos para dispositivos con un ancho menor o igual a 768px */
+@media (width <= 768px) {
+    .header {
+        flex-direction: column;
+        gap: 5rem; /* Reducir el espacio entre elementos */
+    }
+
+    .logo_donaty img {
+        max-width: 40%; /* Aumentar el tamaño del logo */
+        margin-top: 1rem; /* Reducir el margen superior */
+    }
+
+    .logo_donaty {
+        margin-left: 2rem; /* Reducir el margen izquierdo */
+    }
+
+    .menu_container{
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column; /* Cambiar a disposición vertical */
+        align-items: center; /* Centrar elementos */
+    }
+
+    nav a {
+        flex-direction: column; /* Cambiar a disposición vertical */
+        gap: 1rem; /* Reducir el espacio entre elementos */
+        padding-right: 0; /* Eliminar el padding derecho */
+        font-size: 1.5rem; /* Reducir el tamaño de la fuente */
+        padding: 1rem; /* Reducir el padding */
+    }
+
+
+
+    .header-content h1 {
+        font-size: 3rem; /* Reducir el tamaño de la fuente */
+        line-height: 4rem; /* Reducir el line-height */
+        margin-top: 1rem; /* Reducir el margen superior */
+        margin-bottom: 2rem; /* Reducir el margen inferior */
+    }
+
+    .header-content p {
+        font-size: 16px; /* Reducir el tamaño de la fuente */
+        padding: 0 20px; /* Reducir el padding */
+        margin-left: 0; /* Eliminar el margen izquierdo */
+    }
+
+    .coffee-content h2 {
+        font-size: 2rem; /* Reducir el tamaño de la fuente */
+        line-height: 3rem; /* Reducir el line-height */
+        padding: 0 20px; /* Reducir el padding */
+    }
+
+    .txt-parrafo {
+        font-size: 16px; /* Reducir el tamaño de la fuente */
+        padding: 0 20px; /* Reducir el padding */
+    }
+
+    .coffee-group {
+        flex-direction: column; /* Cambiar a disposición vertical */
+        align-items: center; /* Centrar elementos */
+        gap: 20px; /* Reducir el espacio entre elementos */
+        margin-left: 0; /* Eliminar el margen izquierdo */
+        margin-right: 0; /* Eliminar el margen derecho */
+    }
+
+    .coffee-1 {
+        width: 90%; /* Aumentar el ancho */
+    }
+
+    .video-title {
+        font-size: 2rem; /* Reducir el tamaño de la fuente */
+    }
+
+    .video-description {
+        font-size: 16px; /* Reducir el tamaño de la fuente */
+        margin-top: 10rem; /* Reducir el margen superior */
+    }
+
+    .routes-section_1 {
+        height: auto; /* Ajustar la altura automáticamente */
+        flex-direction: column; /* Cambiar a disposición vertical */
+        align-items: center; /* Centrar elementos */
+    }
+
+    .route-card_1 {
+        width: 90%; /* Aumentar el ancho */
+        height: auto; /* Ajustar la altura automáticamente */
+    }
+}

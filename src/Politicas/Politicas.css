@@ -1,0 +1,15 @@
+.politicsAndTerms{
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 12rem;
+    line-height: 1.5;
+    margin-bottom: 4rem;
+}
+
+@media(width<=820px){
+    .politicsAndTerms{
+        margin: 1rem;
+        font-size: 1.7rem;
+    }
+}
