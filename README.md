@@ -1,6 +1,6 @@
-# Donat-Ec
+# Donaty-Ec
 
-Donat-Ec es una plataforma web desarrollada como proyecto final de la materia **Diseño de Interfaces**. Esta aplicación permite la gestión de donaciones de diversos tipos, conectando a personas que desean contribuir con quienes más lo necesitan. La plataforma ha sido creada utilizando **React con Vite** y cuenta con una **base de datos en Firebase**, donde también se encuentra desplegada.
+Donaty-Ec es una plataforma web desarrollada como proyecto final de la materia **Diseño de Interfaces**. Esta aplicación permite la gestión de donaciones de diversos tipos, conectando a personas que desean contribuir con quienes más lo necesitan. La plataforma ha sido creada utilizando **React con Vite** y cuenta con una **base de datos en Firebase**, donde también se encuentra desplegada.
 
 ## 📌 Características Principales
 
